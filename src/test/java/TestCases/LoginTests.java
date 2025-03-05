@@ -33,7 +33,7 @@ public class LoginTests extends Base {
             lp.enterPassword("Admin123");
 			lp.selectLocation();
 			lp.signIn();
-			validate.validMessageOne();
+			validate.validMsg();
 			driver.findElement(By.linkText("Logout")).click();
 		}
 		
@@ -73,7 +73,7 @@ public class LoginTests extends Base {
         lp.enterPassword("Admin123");
 		lp.selectLocation();
 		lp.signIn();
-		validate.validMessageOne();
+		validate.validMsg();
 		rg.registerclickOne();
 		rg.givenNameOne();
 		rg.familyNameOne();
@@ -105,7 +105,7 @@ public class LoginTests extends Base {
         lp.enterPassword("Admin123");
 		lp.selectLocation();
 		lp.signIn();
-		validate.validMessage();
+		validate.validMsg();
 		up.findpatientClicks();
 		up.searchByName();
 		up.selectSearchPatient();

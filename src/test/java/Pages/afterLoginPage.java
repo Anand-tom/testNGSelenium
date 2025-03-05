@@ -15,7 +15,7 @@ WebDriver driver;
 	
 	By validMessage = By.xpath("//*[@id=\"navbarSupportedContent\"]/ul/li[3]/a");
 	
-	public void validMessage()
+	public void validMsg()
 	{
 		WebElement logoutbutton =driver.findElement(validMessage);
 		 Assert.assertEquals(logoutbutton.getText(),"Logout");

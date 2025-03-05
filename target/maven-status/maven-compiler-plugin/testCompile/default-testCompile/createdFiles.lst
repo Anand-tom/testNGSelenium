@@ -1,0 +1,7 @@
+TestCases\Base.class
+Pages\afterLoginPage.class
+Pages\UpdatePage.class
+Pages\loginPage.class
+TestCases\LoginTests.class
+TestCases\TestListeners.class
+Pages\RegisterPage.class
